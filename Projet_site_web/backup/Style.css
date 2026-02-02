@@ -1,0 +1,117 @@
+.lead {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: #d6a2731f;
+    position: relative;
+}
+
+.space {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    position: absolute;
+    left: 50%;
+    margin-left: -336px;
+
+}
+
+html .button {
+    background-color: #F4820F;
+    padding: 25px;
+    margin: 10px;
+    border-radius: 11px;
+    font-size: 30px;
+    font-weight: bold;
+    width: 154px;
+    text-align: center;
+
+}
+
+.logo {
+    width: 305px;
+}
+
+body {
+    margin: 0;
+}
+
+.slide {
+    min-width: 1700px;
+}
+
+.carousel {
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+    overflow-x: auto;
+    -ms-overflow-style: none;
+}
+
+.carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.column {
+    width: 1700px;
+    margin: 0 auto 0 auto;
+    overflow-x: hidden;
+}
+
+.control-carousel {
+    position: absolute;
+    height: 4rem;
+    top: 50%;
+    margin-top: -2rem;
+    width: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    border-radius: 100%;
+
+}
+
+.control-carousel:hover {
+    background-color: rgba(255, 254, 254, 0.548);
+}
+
+.control-carousel:active {
+    background-color: rgba(255, 255, 255, 0.377);
+}
+
+
+
+.control-right {
+    right: 0;
+}
+
+.control-left {
+    left: 0;
+    z-index: 1;
+}
+
+.icon-cart:before {
+    padding-right: 13px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: pink;
+    margin-top: 25px;
+}
+
+.sell {
+    padding: 25px;
+    background-color: red;
+}
+
+.icon-user:before {
+    padding-right: 13px;
+}
+
+.carousel img {
+    width: 100%;
+}
